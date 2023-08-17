@@ -16,11 +16,16 @@ title: トラックボールマウスとトラックパッドの使用感比較
 hideInToc: true
 ---
 
-# トラックボールマウスとトラックパッドの使用感比較
+# トラックボールマウスとトラックパッドの比較
 
 テックソリューション室 SI事業部 フロントエンド開発G<br>
 福西俊介
 
+<style>
+  h1 {
+    font-size: 20px;
+  }
+</style>
 ---
 transition: fade-out
 hideInToc: true
@@ -37,23 +42,35 @@ level: 1
 layout: default
 ---
 
-# 概要
+# はじめに
 
-<p>
-  トラックボールマウスとトラックパッドに関してネットで見たメリットとデメリット、<br>
-  そして実際両方を使用してみて感じたことなどを話そうと思います。
-</p>
+<div class="outline">
+  <p class="outline-text">
+    トラックボールマウスとトラックパッドに関してネットで調べたメリットとデメリット、<br>
+    そして実際両方を使用してみて感じたことなどを話そうと思います。
+  </p>
+</div>
+<div class="links">
+  <a href="https://www.amazon.co.jp/gp/aw/d/B0B19W7YRV/ref=ya_aw_od_pi?ie=UTF8&psc=1" target="_blank" rel="noopener noreferrer">https://www.amazon.co.jp/gp/aw/d/B0B19W7YRV/ref=ya_aw_od_pi?ie=UTF8&psc=1</a><br>
+  <a href="https://www.apple.com/jp/shop/product/MK2D3ZA/A/magic-trackpad-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88multi-touch%E5%AF%BE%E5%BF%9C" target="_blank" rel="noopener noreferrer">https://www.apple.com/jp/shop/product/MK2D3ZA/A/magic-trackpad-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88multi-touch%E5%AF%BE%E5%BF%9C</a>
+</div>
 
 
 <style>
-p {
-  height: 80%;
-  line-height: 2.4rem;
+.outline {
+  margin-top: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 20px;
+  font-size: 21px;
+  outline-style: none;
+}
+.outline-text {
+  line-height: 2.5rem;
+}
+.links {
+  margin-left: 20px;
 }
 </style>
 ---
@@ -149,7 +166,24 @@ img {
     <p>- 掃除などのメンテナンスが必要になる</p>
     <p>- 細かい操作をするのが難しい</p>
     <p>- 自分に合うボールの位置を考える必要がある</p>
-    <p>- 価格が高い</p>
+    <p>- ワイヤレス、Bluetoothは価格が高め</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>有線：</td>
+          <td>2000円台</td>
+        </tr>
+        <tr>
+          <td>ワイヤレス：</td>
+          <td>4000円~</td>
+        </tr>
+        <tr>
+          <td>Bluetooth：</td>
+          <td>6000円~</td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="https://kakaku.com/pc/trackball/" target="_blank" rel="noopener noreferrer">https://kakaku.com/pc/trackball/</a>
   </div>
   <div class="column2">
     <img src="/public/IMG_9229.jpeg" />
@@ -160,7 +194,7 @@ img {
 .image-container {
   display: flex;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 .column1 {
   margin-right: 20px;
@@ -173,6 +207,9 @@ img {
   width: 100%;
   height: 100%;
 }
+table {
+  margin-bottom: 20px
+}
 </style>
 
 ---
@@ -184,6 +221,7 @@ img {
     <p>- スワイプやズームなど様々なジェスチャーが使える</p>
     <p>- スマホ操作と似ており、直感的に操作ができる</p>
     <p>- トラックパッドが置けるだけの広さがあればいい</p>
+    <p>- 手首が痛くなりにくい</p>
     <p>- 横スクロールが簡単にできる</p>
   </div>
   <div class="column2">
@@ -221,7 +259,20 @@ class: px-20
     <p>- 長い距離のドラッグがやりにくい</p>
     <p>- ゲームやOffice系ソフトなど細かな作業がしにくい</p>
     <p>- 指が少し疲れる場合がある</p>
-    <p>- 価格が高い</p>
+    <p>- 価格が高め</p>
+    <table>
+      <tbody>
+        <tr>
+          <td>独立型:</td>
+          <td>6000円~</td>
+        </tr>
+        <tr>
+          <td>キーボード一体型：</td>
+          <td>5000円~</td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="https://my-best.com/1508#ranking" target="_blank" rel="noopener noreferrer">https://my-best.com/1508#ranking</a>
   </div>
   <div class="column2">
     <img src="/public/IMG_9228.jpeg" />
@@ -232,7 +283,7 @@ class: px-20
 .image-container {
   display: flex;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 .column1 {
   margin-right: 20px;
@@ -244,6 +295,9 @@ class: px-20
 img {
   width: 100%;
   height: 100%;
+}
+table {
+  margin-bottom: 20px
 }
 </style>
 ---
@@ -271,11 +325,14 @@ preload: false
   ul {
     margin-top: 20px;
   }
+  h3 {
+    text-decoration: underline;
+  }
 </style>
 ---
 
 <h2>
-  ご静聴ありがとうございました。
+  ご静聴ありがとうございました!
 </h2>
 
 <style>
